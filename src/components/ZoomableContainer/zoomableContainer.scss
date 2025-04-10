@@ -1,0 +1,74 @@
+.main-wrapper {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #f4f6fa;
+  }
+  
+  .controls {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    display: flex;
+    gap: 10px;
+    z-index: 1000;
+  }
+  
+  .controls button {
+    padding: 10px 14px;
+    font-size: 18px;
+    background: #6366f1;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .controls button:hover {
+    background: #4f46e5;
+  }
+  
+  .zoom-container {
+    width: 80%;
+    height: 80%;
+    border: 2px solid #d1d5db;
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .zoom-content-simple {
+    transition: transform 0.3s ease;
+    transform-origin: center center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .card {
+    width: 500px;
+    padding: 30px;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .card h1 {
+    font-size: 28px;
+    color: #111827;
+  }
+  
+  .card p {
+    font-size: 16px;
+    color: #4b5563;
+    margin-top: 12px;
+  }
+  
